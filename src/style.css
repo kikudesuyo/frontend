@@ -1,6 +1,13 @@
+body{
+  margin: 0;
+}
+
 .header{
   height: 150px;
-  border: 1px solit #000;
+  margin-bottom: 20px;
+  background-color: #d9e021;
+  display: flex;
+  align-items: center;
 }
 .header_contents{
   margin: 0 auto;
@@ -8,7 +15,14 @@
 }
 .logo{
   width: 200px;
-  border: 1px solid #000;
+  color: #52b6ac;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 50px;
+  margin-right: 10px;
 }
 .contents{
   margin: 0 auto;
@@ -16,25 +30,51 @@
 }
 .visual{
   height: 400px;
-  border: 1px solid #00f;
+  background: url("../images/top_bg.jpg") no-repeat center center;
+  display: flex;
+  align-items: center;
 }
 .copy{
-  height: 250px;
-  margin-top: 50px;
-  border: 1px solid #000;
+  color: #FFF;
+  margin-left: 100px;
+  font:normal 32px/2em sans-serif;
 }
 .text{
+  width: 280px;
+  height: 160px;
+  margin-top: 20px;
+  padding-right: 15px;
+  border-right: 8px solid #000;
+  font: normal 18px/2em sans-serif;
+  display: flex;
+  align-items: center;
 
 }
 .menu{
+  width: 300px;
+  font:normal 18px/1.6em sans-serif;
+  display: flex;
+  align-items: center;
+
 
 }
 .footer{
+  height: 120px;
+  margin-top: 30px;
+  background-color: #bec9c9;
+  display: flex;
+  justify-content: center;
 
 }
 .footer_contents{
-  margin: 0 auto;
   width: 980px;
+  text-align: center;
+  align-self: flex-end;
+}
+.text_wrapper{
+  height: 200px;
+  display: flex;
+  justify-content: center;
 }
 
 
