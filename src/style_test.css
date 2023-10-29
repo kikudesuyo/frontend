@@ -53,7 +53,7 @@ a:hover{
 }
 .visual{
   height: 400px;
-  background: url("../images/top_bg.jpg") no-repeat center center;
+  background: url("../img/top_bg.jpg") no-repeat center center;
   display: flex;
   align-items: center;
 }
